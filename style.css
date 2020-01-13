@@ -2,9 +2,10 @@
 
 html {font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    
         }
 
-hr {color: #A64500;}
+hr {border-color: #A64500;}
 
 p {font-family: 'Poppins', sans-serif;
     font-weight: 300;}
@@ -18,10 +19,11 @@ h2 {font-weight: 400;
 body {widows: 300px;
         background-color: #FFAD73;}     
 
-.intro {
-        width: 960;
-        height: 960;
-}
+.intro {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        }
 
 .col1 {float: left;
         width: 460px;

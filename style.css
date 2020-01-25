@@ -7,17 +7,48 @@ html {font-family: 'Poppins', sans-serif;
 
 
 
-.img-header {
-             background-image: url(images_D/Derrike_Wife.jpg);
+.header {
+              
              width: 100%;
-             height: 100%;
-             padding: 360px;
-             background-position: center;
+             height: 940px;
+             background-image: url(images_D/Derrike_Wife.jpg);
+             background-position: left;
              background-repeat: no-repeat;
+             background-size: cover;
+             background-size: 100%;
+             padding: 20px;
+             opacity: .5
              
-             background-size: contain;
-             position:
 }
+
+.headerquote p {font-weight: 600;
+            color: #000000;
+            font-size: 60px;
+            float: left ;
+            width: 600px;
+            border-top: 3px solid #000000;
+            border-bottom: 3px solid #000000;
+            z-index: 1;
+            text-transform: uppercase;
+            animation-name: fadein;
+            opacity: 1;
+            animation-duration: 3.5s;
+            animation-delay: 0s;
+            background-color: white;
+            }
+
+@keyframes fadein {
+    
+  0% { opacity: 0; }
+  
+  25% { opacity: .25}    
+    
+  45% {opacity: .5;}
+
+  100% {opacity: 1;}
+}                
+
+
 
 
 
@@ -37,47 +68,73 @@ h2 {font-weight: 400;
 body {widows: 300px;
         background-color: #FFAD73;}     
 
-.intro {display: block;
-        margin-left: auto;
-        margin-right: auto;
+.intro {background-color: blue;
+        text-align: center;
+        
+        width: 100%;
+        height: 940px;
+        }
+
+.nav ul {list-style: none;
+      margin: 0;
+      padding:0;
+      width: 100%;
+      display: inline-block;
+      background-color: white;
+     
+}
+
+/* ul li MUST BE SEPARATE FOR HORIZONTAL BAR!!! */
+
+.nav ul li {display: inline;}
+
+.col1 { background-color: white;
+        float: left;
         width: 50%;
-        }
-
-.col1 {float: left;
-        width: 460px;
-        margin: 120px;
-        border-style: groove;
-        border-color: #A64500
-        }
-
-.col2  {float: left;
-        width: 460px;
-        margin: 120px;
+        margin: 1px;
         border-style: groove;
         border-color: #A64500;
+        display: inline;
+        text-align: center;
+        }
+
+.col2  {background-color: white;
+        float: left;
+        width: 50%;
+        margin: 1px;
+        border-style: groove;
+        border-color: #A64500;
+        display: inline;
+        text-align: center;
 }
 .col1 img, .col2 img {
-        width: 500px;
-        height: 500px;
+    
+        width: 470px;
+        height: 470px;
 }
 
 
 .col3 {float: left;
-        width: 460px;
-        margin: 120px;
+        width: 470px;
+        margin: 60px;
         clear: left;
         border-style: groove;
         border-color: #A64500;  
-        }
+        background-color: white;
+        text-align: center;
+}
 
 .col4 {float: left;
-        width: 460px;
-        margin: 120px;
+        width: 470px;
+        margin: 60px;
         border-style: groove;
-        border-color: #A64500;}
+        border-color: #A64500;
+        text-align: center;
+        background-color: white;
+}
 
 .col3 img, .col4 img {
-        width: 500px;
-        height: 500px;
+        width: 470px;
+        height: 470px;
 
 
